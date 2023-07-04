@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let x=1;
+
+    function birinci(param) {
+        document.write ("ilk fonksiyonumu"+param+". kez çalıştırıyorum!");
+        ikinci(param);
+    };
+
+    function ikinci (param2){
+        document.write ("ikinci fonksiyonumu" +param2+" . kez çalıştırıyorum!");
+        param2++;
+        birinci(param2);
+    };
+ birinci(x);
+
+
+    // function nihai(){
+    //     birinci(), ikinci()
+    // };
+
+    // nihai();
+
+</script>
+</body>
+</html>

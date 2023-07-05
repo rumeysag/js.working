@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+
+      let city= "Izmir";
+      let code= "3";
+
+      // if(city=="Izmir"){
+      //     {if(code=="34"){
+      //         document.write("Şehir ve plaka kodu doğrudur!")}
+      //         else {
+      //             document.write("Şehir ile plaka kodu uyumsuz!")
+      //         }
+      //     }}
+      //     else {
+      //         document.write("Bilgiler yanlış.")
+      //     };
+
+
+      if ((city=="Izmir") && (code=="35"))
+          {document.write("Şehir ve plaka kodu doğrudur!")}
+
+          else {if((city=="Izmir") || (code=="35"))
+          {document.write("Şehir yada plaka kodu doğru değil!")}
+
+          else
+          {document.write("Bilgiler yanlış.")}
+      }
+    </script>
+  </body>
+</html>
